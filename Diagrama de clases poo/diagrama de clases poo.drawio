@@ -1,0 +1,83 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36" version="28.2.7">
+  <diagram name="Página-1" id="WlM1drkwFLCx73xWABsp">
+    <mxGraphModel dx="1301" dy="716" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="enw_xtfMuPRkdPCyClEA-1" value="Estudiantes" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontFamily=Tahoma;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="286" y="30" width="284" height="294" as="geometry">
+            <mxRectangle x="170" y="100" width="100" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="enw_xtfMuPRkdPCyClEA-2" value="- nombre : str&amp;nbsp;&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=16;fontFamily=Tahoma;" parent="enw_xtfMuPRkdPCyClEA-1" vertex="1">
+          <mxGeometry y="26" width="284" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="enw_xtfMuPRkdPCyClEA-4" value="- notas : list&amp;lt;int&amp;gt;&amp;nbsp;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Tahoma;fontSize=16;" parent="enw_xtfMuPRkdPCyClEA-1" vertex="1">
+          <mxGeometry y="52" width="284" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="enw_xtfMuPRkdPCyClEA-9" value="- promedio : float&amp;nbsp; &amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Tahoma;fontSize=16;" parent="enw_xtfMuPRkdPCyClEA-1" vertex="1">
+          <mxGeometry y="78" width="284" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="enw_xtfMuPRkdPCyClEA-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="enw_xtfMuPRkdPCyClEA-1" vertex="1">
+          <mxGeometry y="104" width="284" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="enw_xtfMuPRkdPCyClEA-10" value="&lt;div&gt;+ calcular_notas_automaticas()&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Tahoma;fontSize=16;" parent="enw_xtfMuPRkdPCyClEA-1" vertex="1">
+          <mxGeometry y="112" width="284" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="enw_xtfMuPRkdPCyClEA-11" value="&lt;div&gt;+ verificar_aprobaciones() : str&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Tahoma;fontSize=16;" parent="enw_xtfMuPRkdPCyClEA-1" vertex="1">
+          <mxGeometry y="138" width="284" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="enw_xtfMuPRkdPCyClEA-12" value="&lt;div&gt;+ mayor_variacion() : str&amp;nbsp;&amp;nbsp;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Tahoma;fontSize=16;" parent="enw_xtfMuPRkdPCyClEA-1" vertex="1">
+          <mxGeometry y="164" width="284" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="enw_xtfMuPRkdPCyClEA-13" value="&lt;div&gt;+ es_progresivo() : bool&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Tahoma;fontSize=16;" parent="enw_xtfMuPRkdPCyClEA-1" vertex="1">
+          <mxGeometry y="190" width="284" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="enw_xtfMuPRkdPCyClEA-14" value="&lt;div&gt;+ ordenar_notas_desc() : list&amp;lt;int&amp;gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Tahoma;fontSize=16;" parent="enw_xtfMuPRkdPCyClEA-1" vertex="1">
+          <mxGeometry y="216" width="284" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="enw_xtfMuPRkdPCyClEA-15" value="&lt;div&gt;+ evaluacion_final() : str&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Tahoma;fontSize=16;" parent="enw_xtfMuPRkdPCyClEA-1" vertex="1">
+          <mxGeometry y="242" width="284" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="enw_xtfMuPRkdPCyClEA-16" value="&lt;div&gt;+ calcular_promedio() : float&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Tahoma;fontSize=16;" parent="enw_xtfMuPRkdPCyClEA-1" vertex="1">
+          <mxGeometry y="268" width="284" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="yf3AePaHCY1nHfmwHfeN-6" value="Academia" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontFamily=Tahoma;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="286" y="470" width="284" height="190" as="geometry">
+            <mxRectangle x="170" y="100" width="100" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yf3AePaHCY1nHfmwHfeN-7" value="- nombre : str&amp;nbsp;&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=16;fontFamily=Tahoma;" parent="yf3AePaHCY1nHfmwHfeN-6" vertex="1">
+          <mxGeometry y="26" width="284" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="yf3AePaHCY1nHfmwHfeN-8" value="&lt;div&gt;- estudiantes : list&amp;lt;Estudiante&amp;gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Tahoma;fontSize=16;" parent="yf3AePaHCY1nHfmwHfeN-6" vertex="1">
+          <mxGeometry y="52" width="284" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="yf3AePaHCY1nHfmwHfeN-10" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="yf3AePaHCY1nHfmwHfeN-6" vertex="1">
+          <mxGeometry y="78" width="284" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="yf3AePaHCY1nHfmwHfeN-11" value="&lt;div&gt;+ agregar_estudiante(e: Estudiante)&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Tahoma;fontSize=16;" parent="yf3AePaHCY1nHfmwHfeN-6" vertex="1">
+          <mxGeometry y="86" width="284" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="yf3AePaHCY1nHfmwHfeN-12" value="&lt;div&gt;+ mejor_promedio() : str&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Tahoma;fontSize=16;" parent="yf3AePaHCY1nHfmwHfeN-6" vertex="1">
+          <mxGeometry y="112" width="284" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="yf3AePaHCY1nHfmwHfeN-13" value="&lt;div&gt;+ mas_regular() : str&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Tahoma;fontSize=16;" parent="yf3AePaHCY1nHfmwHfeN-6" vertex="1">
+          <mxGeometry y="138" width="284" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="yf3AePaHCY1nHfmwHfeN-14" value="&lt;div&gt;+ peor_en_prueba(n: int) : str&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Tahoma;fontSize=16;" parent="yf3AePaHCY1nHfmwHfeN-6" vertex="1">
+          <mxGeometry y="164" width="284" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="yf3AePaHCY1nHfmwHfeN-19" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="427" y="390" as="sourcePoint" />
+            <mxPoint x="427" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yf3AePaHCY1nHfmwHfeN-20" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 49, 138));&quot;&gt;1.*&lt;/font&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=25;" parent="1" vertex="1">
+          <mxGeometry x="384" y="350" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
