@@ -9,7 +9,7 @@ Este diagrama representa la versión orientada a objetos del desafío anterior
 - **Academia**: representa la institución que gestiona un conjunto de estudiantes y calcula rankings.
 
 ## 📊 Diagrama de clases
-![Diagrama UML](diagrama_clases.png)
+![Diagrama UML](Diagrama de clases poo/diagrama de clases poo.drawio.png)
 
 ## 🧩 Consideraciones
 
