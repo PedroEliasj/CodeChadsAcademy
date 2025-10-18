@@ -8,9 +8,6 @@ Este diagrama representa la versión orientada a objetos del desafío anterior
 - **Estudiante**: modela a un alumno con sus notas, promedio y métodos de evaluación individual.
 - **Academia**: representa la institución que gestiona un conjunto de estudiantes y calcula rankings.
 
-## 📊 Diagrama de clases
-![Diagrama UML](Diagrama de clases poo/diagrama de clases poo.drawio.png)
-
 ## 🧩 Consideraciones
 
 - Se aplicaron los principios de **POO**:
