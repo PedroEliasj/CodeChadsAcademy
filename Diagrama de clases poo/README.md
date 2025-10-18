@@ -14,7 +14,7 @@ Este diagrama representa la versión orientada a objetos del desafío anterior
 ## 🧩 Consideraciones
 
 - Se aplicaron los principios de **POO**:
-  - **Responsabilidad única**: cada clase tiene una función específica.
+- Responsabilidad única**: cada clase tiene una función específica.
 - Se mantuvo la misma lógica del desafío estructurado, pero separada por clases.
 - Se usa relación **1 a muchos** entre `Academia` y `Estudiante`.
 
